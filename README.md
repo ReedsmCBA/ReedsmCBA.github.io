@@ -9,8 +9,10 @@
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Merienda|Merienda+One|Orbitron|Quicksand|Raleway" rel="stylesheet">
   
 
-</head>
+<head>
 <title>Your time with Shaun</title>
+</head>
+
 <body>
   <main>
     <h1>User Experience Evaluation</h1>
