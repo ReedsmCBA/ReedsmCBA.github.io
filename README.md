@@ -20,15 +20,15 @@
     <h2>Feedback Questions</h2>
       <fieldset>
           <legend>Did you straight-up have a good time?</legend>
-          <label><input id="Yeah" type="checkbox" name="experience" value="Yeah"></label>
-          <label><input id="Somewhat" type="checkbox" name="experience" value="Somewhat"></label>
-          <label><input id="No" type="checkbox" name="experience" value="No"></label>
+          <label><input id="Yeah" type="checkbox" name="experience" value="Yeah"></label>Yeah
+          <label><input id="Somewhat" type="checkbox" name="experience" value="Somewhat"></label>Somewhat
+          <label><input id="No" type="checkbox" name="experience" value="No"></label>No
       </fieldset>
       <fieldset>
               <legend>Would you do it again?</legend>
-              <label><input id="Yeah" type="checkbox" name="experience" value="Yeah"></label>
-              <label><input id="Somewhat" type="checkbox" name="experience" value="Somewhat"></label>
-              <label><input id="No" type="checkbox" name="experience" value="No"></label>
+              <label><input id="Yeah" type="checkbox" name="experience" value="Yeah"></label>Yeah
+              <label><input id="Somewhat" type="checkbox" name="experience" value="Somewhat"></label>Somewhat
+              <label><input id="No" type="checkbox" name="experience" value="No"></label>No
       </fieldset>
       </main>
 </body>
