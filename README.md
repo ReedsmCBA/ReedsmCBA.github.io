@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
 
+   <!--JAVASCRIPT-->
+  <script type="text/javascript" src="../Survey-Project/Javascript/main.js"></script>
+  
+  <!--css-->
+  <link rel="stylesheet" href="../Survey-Project/CSS/main.css" type="text/css" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Merienda|Merienda+One|Orbitron|Quicksand|Raleway" rel="stylesheet">
+  
+
+</head>
+<title>Your time with Shaun</title>
 <body>
   <main>
-    <h1>Core Skills Evaluation</h1>
-    <section>User Experience</section>
-    <form action="
-      <p>Hi, there. We hope the learning experience was engaging and enjoyable... Please take a moment to give us your feedback</p>
-    </section>
+    <h1>User Experience Evaluation</h1>
+    <form id="survey-form" method="GET" action="http://www.foo.com/">
+      <p>Hi, there. I hope the experience was engaging and enjoyable... Please take a moment to give me your feedback</p>
   <section>
     <h2>Feedback Questions</h2>
       <fieldset>
