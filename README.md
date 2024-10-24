@@ -12,15 +12,22 @@
   <main>
     <h1>Core Skills Evaluation</h1>
     <section>User Experience</section>
+    <form action="
       <p>Hi, there. We hope the learning experience was engaging and enjoyable... Please take a moment to give us your feedback</p>
     </section>
   <section>
     <h2>Feedback Questions</h2>
       <fieldset>
           <legend>Did you straight-up have a good time?</legend>
-          <label><input id="Yeah" type="checklist" 
-
-
+          <label><input id="Yeah" type="checkbox" name="experience" value="Yeah"></label>
+          <label><input id="Somewhat" type="checkbox" name="experience" value="Somewhat"></label>
+          <label><input id="No" type="checkbox" name="experience" value="No"></label>
+      </fieldset>
+      <fieldset>
+              <legend>Would you do it again?</legend>
+              <label><input id="Yeah" type="checkbox" name="experience" value="Yeah"></label>
+              <label><input id="Somewhat" type="checkbox" name="experience" value="Somewhat"></label>
+              <label><input id="No" type="checkbox" name="experience" value="No"></label>
       </fieldset>
       </main>
 </body>
