@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-   <!--JAVASCRIPT-->
-  <script type="text/javascript" src="../Survey-Project/Javascript/main.js"></script>
-  
-  <!--css-->
-  <link rel="stylesheet" href="../Survey-Project/CSS/main.css" type="text/css" media="all">
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Merienda|Merienda+One|Orbitron|Quicksand|Raleway" rel="stylesheet">
-  
-
-<head>
-<title>Your time with Shaun</title>
-</head>
-
-<body>
-  <main>
-    <h1>User Experience Evaluation</h1>
-    <form id="survey-form" method="GET" action="http://www.foo.com/">
-      <p>Hi, there. I hope the experience was engaging and enjoyable... Please take a moment to give me your feedback</p>
-  <section>
-    <h2>Feedback Questions</h2>
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
       <fieldset>
-          <legend>Did you straight-up have a good time?</legend>
-          <label><input id="Yeah" type="checkbox" name="experience" value="Yeah"></label>Yeah
-          <label><input id="Somewhat" type="checkbox" name="experience" value="Somewhat"></label>Somewhat
-          <label><input id="No" type="checkbox" name="experience" value="No"></label>No
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
       </fieldset>
       <fieldset>
-              <legend>Would you do it again?</legend>
-              <label><input id="Yeah" type="checkbox" name="experience" value="Yeah"></label>Yeah
-              <label><input id="Somewhat" type="checkbox" name="experience" value="Somewhat"></label>Somewhat
-              <label><input id="No" type="checkbox" name="experience" value="No"></label>No
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business</label>
       </fieldset>
-      </main>
-</body>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
 </html>
