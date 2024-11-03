@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <h1>Registration Form</h1>
+    <h1>User Experience Evaluation</h1>
     <p>Please fill out this form with the required information</p>
     <form method="post" action='https://register-demo.freecodecamp.org'>
       <fieldset>
